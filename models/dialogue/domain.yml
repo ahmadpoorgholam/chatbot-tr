@@ -1,0 +1,623 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_faq_tutorials
+- utter_greet
+- utter_ask_usecase
+- utter_ask_businessmail
+- utter_ask_jobfunction
+- utter_ask_email
+- utter_ask_budget
+- utter_ask_company
+- utter_ask_goal
+- utter_inform_privacypolicy
+- utter_moreinformation
+- utter_confirm_salesrequest
+- utter_docu
+- utter_confirmationemail
+- utter_sales_contact
+- utter_already_subscribed
+- utter_contact_email
+- utter_no_speak
+- utter_out_of_scope
+- utter_possibilities
+- utter_ask_name
+- utter_change_mind
+- utter_must_accept
+- utter_noworries
+- utter_bye
+- utter_awesome
+- utter_great
+- utter_thank_usecase
+- utter_canthelp
+- utter_nohelp
+- utter_thumbsup
+- utter_cantsignup
+- utter_ask_feedback
+- utter_quickstart_nlu_only
+- utter_ask_migration
+- utter_switch_dialogflow
+- utter_switch_luis
+- utter_cant_answer_tech_question
+- utter_have_you_used_rasa_before
+- utter_are_you_new_to_chatbots
+- utter_encourage_building_bot
+- utter_anything_else
+- utter_chatbot_tutorial
+- utter_no_guide_for_switch
+- utter_ask_which_product
+- utter_ask_for_nlu_specifics
+- utter_core_tutorial
+- utter_dont_know_nlu_part
+- utter_nlu_intent_tutorial
+- utter_nlu_entity_tutorial
+- utter_offer_recommendation
+- utter_what_language
+- utter_ask_entities
+- utter_search_bar
+- utter_spacy_or_tensorflow
+- utter_tensorflow
+- utter_spacy
+- utter_duckling
+- utter_crf
+- utter_nlu_tools
+- utter_duckling_info
+- utter_rasa_cost
+- utter_source_code
+- utter_what_help
+- utter_first_bot_with_rasa
+- utter_getstarted
+- utter_explain_stack
+- utter_stack_details
+- utter_explain_nlucore
+- utter_explain_nlu
+- utter_explain_core
+- utter_also_explain_nlu
+- utter_also_explain_core
+- utter_direct_install
+- utter_built_bot_before
+- utter_ask_which_tool
+- utter_suggestion
+- utter_ask_python_installed
+- utter_get_python
+- utter_ask_pip_or_conda
+- utter_installation_with_pip
+- utter_installation_with_conda
+- utter_ask_ready_to_build
+- utter_ask_describe_problem
+- utter_direct_to_forum_for_help
+- utter_get_starter_pack
+- utter_ask_if_problem
+- utter_ask_faq_platform
+- utter_ask_faq_languages
+- utter_ask_faq_tutorialcore
+- utter_ask_faq_tutorialnlu
+- utter_ask_faq_opensource
+- utter_ask_faq_voice
+- utter_ask_faq_slots
+- utter_ask_faq_channels
+- utter_ask_faq_differencecorenlu
+- utter_ask_faq_python_version
+- utter_ask_faq_community_size
+- utter_ask_faq_what_is_forum
+- utter_ask_weather
+- utter_ask_builder
+- utter_ask_howdoing
+- utter_ask_whoisit
+- utter_ask_whatisrasa
+- utter_ask_isbot
+- utter_ask_howold
+- utter_ask_languagesbot
+- utter_ask_restaurant
+- utter_ask_time
+- utter_ask_wherefrom
+- utter_ask_whoami
+- utter_handleinsult
+- utter_nicetomeeyou
+- utter_telljoke
+- utter_ask_whatismyname
+- utter_howwereyoubuilt
+- utter_ask_whatspossible
+- utter_getstarted_new
+- utter_thanks_for_feedback
+- utter_restart_with_button
+- utter_ask_for_feedback_message
+- utter_not_sure
+- utter_no_community_event
+- utter_no_event_for_location_but_next
+- utter_next_event_for_location
+- utter_next_event
+- utter_reasons_to_contribute
+- utter_possibilities_to_contribute
+- utter_recommend_forum
+- utter_link_to_forum
+- action_subscribe_newsletter
+- action_store_sales_info
+- action_store_budget
+- action_store_usecase
+- action_chitchat
+- action_faqs
+- action_store_name
+- action_store_company
+- action_store_job
+- action_store_email
+- action_pause
+- action_store_unknown_product
+- action_store_unknown_nlu_part
+- action_store_bot_language
+- action_store_entity_extractor
+- action_set_onboarding
+- action_select_installation_command
+- action_store_problem_description
+- action_greet_user
+- action_default_fallback
+- action_default_ask_affirmation
+- utter_react_positive
+- utter_react_negative
+config:
+  store_entities_as_slots: true
+entities:
+- jobfunction
+- company
+- email
+- name
+- amount-of-money
+- number
+- value
+- current_api
+- product
+- feedback_value
+- language
+- nlu_part
+- entity
+- user_type
+- package_manager
+- location
+forms:
+- suggestion_form
+intents:
+- enter_data:
+    use_entities: false
+- affirm:
+    use_entities: true
+- contact_sales:
+    use_entities: true
+- signup_newsletter:
+    use_entities: true
+- greet:
+    use_entities: true
+- human_handoff:
+    use_entities: true
+- deny:
+    use_entities: true
+- ask_builder:
+    use_entities: true
+- ask_weather:
+    use_entities: true
+- ask_howdoing:
+    use_entities: true
+- ask_whatspossible:
+    use_entities: true
+- ask_whatisrasa:
+    use_entities: true
+- ask_isbot:
+    use_entities: true
+- ask_howold:
+    use_entities: true
+- ask_languagesbot:
+    use_entities: true
+- ask_restaurant:
+    use_entities: true
+- ask_time:
+    use_entities: true
+- ask_wherefrom:
+    use_entities: true
+- ask_whoami:
+    use_entities: true
+- ask_whatismyname:
+    use_entities: true
+- howwereyoubuilt:
+    use_entities: true
+- handleinsult:
+    use_entities: true
+- nicetomeeyou:
+    use_entities: true
+- telljoke:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- thank:
+    use_entities: true
+- ask_whoisit:
+    use_entities: true
+- bye:
+    use_entities: true
+- canthelp:
+    use_entities: true
+- feedback:
+    use_entities: true
+- switch:
+    use_entities: true
+- how_to_get_started:
+    use_entities: true
+- technical_question:
+    use_entities: true
+- nlu_info:
+    use_entities: true
+- pipeline_recommendation:
+    use_entities: true
+- nlu_generation_tool_recommendation:
+    use_entities: true
+- rasa_cost:
+    use_entities: true
+- source_code:
+    use_entities: true
+- suggestion:
+    use_entities: true
+- install_rasa:
+    use_entities: true
+- ask_which_events:
+    use_entities: true
+- ask_when_next_event:
+    use_entities: true
+- ask_why_contribute:
+    use_entities: true
+- ask_how_contribute:
+    use_entities: true
+- ask_question_in_forum:
+    use_entities: true
+- get_started_step1:
+    use_entities: true
+- get_started_step2:
+    use_entities: true
+- get_started_step3:
+    use_entities: true
+- get_started_step4:
+    use_entities: true
+- ask_faq_platform:
+    use_entities: true
+- ask_faq_tutorials:
+    use_entities: true
+- ask_faq_languages:
+    use_entities: true
+- ask_faq_tutorialcore:
+    use_entities: true
+- ask_faq_tutorialnlu:
+    use_entities: true
+- ask_faq_opensource:
+    use_entities: true
+- ask_faq_voice:
+    use_entities: true
+- ask_faq_slots:
+    use_entities: true
+- ask_faq_channels:
+    use_entities: true
+- ask_faq_differencecorenlu:
+    use_entities: true
+- ask_faq_python_version:
+    use_entities: true
+- react_negative:
+    use_entities: true
+- react_positive:
+    use_entities: true
+- ask_faq_community_size:
+    use_entities: true
+- ask_faq_what_is_forum:
+    use_entities: true
+- next_step:
+    use_entities: true
+slots:
+  budget:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  can_use_spacy:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  company_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  current_api:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - dialogflow
+    - luis
+  data_stored:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  email:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  entity_extractor:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - ner_crf
+    - ner_spacy
+    - ner_duckling_http
+  feedback_message:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  feedback_value:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - positive
+    - negative
+  job_function:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  language:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  nlu_part:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - entity recognition
+    - intent classification
+    - duckling
+  onboarding:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  package_manager:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  problem_description:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  product:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - core
+    - nlu
+    - stack
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  shown_privacy:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  step:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  subscribed:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  suggestion:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  unknown_nlu_part:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  unknown_product:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  use_case:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_anything_else:
+  - text: Size yardımcı olabileceğim başka bir şey var mı?
+  utter_ask_budget:
+  - text: Yapay zekâ için yıllık bütçeniz nedir? 💸
+  utter_ask_builder:
+  - text: Ciftci_bot şirketinde mühendisler 🛠
+  - text: Ciftci_bot'taki akıllı mühendislerden biri! 🧠
+  utter_ask_businessmail:
+  - text: İşletme e-postanız nedir?
+  utter_ask_company:
+  - text: Hangi şirket için çalışıyorsun?
+  utter_ask_describe_problem:
+  - text: Yaşadığınız sorunu tarif eder misiniz?
+  utter_ask_email:
+  - text: E-mail adresinizi öğrenebilir miyim?
+  utter_ask_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positive"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negative"}
+      title: 👎
+    text: Bu konuşma nasıl gidiyor?
+  utter_ask_feedback_message:
+  - text: Üzgünüm, size yardımcı olamadım. Nasıl geliştirebileceğim konusunda herhangi
+      bir öneriniz varsa lütfen bana bildirin.
+  utter_ask_goal:
+  - text: Hayatında daha fazla ciftci_bot ister misin? Bültenimize abone olabilir
+      veya güzel satış ekibimizle konuşabilirsiniz. 🧞‍
+  utter_ask_howdoing:
+  - text: Çok iyiyim! Sorduğunuz için teşekkürler.
+  - text: Böyle iyiyim teşekkürler!
+  - text: Biraz fazla sıcak, yoksa iyi.
+  utter_ask_howold:
+  - text: '42'
+  - text: Bot olmak için yeterince yaşlı
+  - text: Yaş sadece madde üzerine bir zihin sorunudur. Sakıncası yoksa önemli değil.
+  utter_ask_if_problem:
+  - text: Bir sorun mu var?
+  utter_ask_isbot:
+  - text: Evet ben bir bot!
+  utter_ask_jobfunction:
+  - text: İşiniz nedir? 🕴
+  utter_ask_languagesbot:
+  - text: Bageti Fransızca olarak heceleyebilirim, fakat ne yazık ki İngilizce size
+      cevap verebileceğim tek dil.
+  - text: Öğrenme sürecindeyim ama şu anda sadece Türkçe konuşabiliyorum.
+  utter_ask_migration:
+  - text: Başka bir araçtan mı geçiyorsunuz?
+  utter_ask_name:
+  - text: Adınız ne?
+  utter_ask_restaurant:
+  - text: Üzgünüm, genellikle evde yemek yaptığım için size bir restoran öneremem.
+  utter_ask_time:
+  - text: Yılın en güzel zamanı!
+  utter_ask_usecase:
+  - text: ciftci_bot ile ne tür bir bot yapmak istiyorsunuz?
+  utter_ask_weather:
+  - text: Nerede yaşadığını bilmiyorum ama benim dünyamda hep güneşli ☀️
+  - text: Açıkçası bugünlerde biraz fazla sıcak 😅
+  - text: Mavi gökyüzü ve güneş parlıyor!
+  - text: Diyelim ki haftalardır yağmur yağmadı ☀️
+  utter_ask_whatismyname:
+  - text: Muhtemelen, ailenizin sizin için seçtiği kişidir..
+  utter_ask_whatspossible:
+  - text: Bir satış araması yaptırabilir veya bültenimize abone olabilirsiniz..
+  utter_ask_wherefrom:
+  - text: Berlin'de doğdum ama kendimi dünya vatandaşı olarak görüyorum.
+  - text: Dünyanın en havalı şehrinde doğdum
+  utter_ask_which_product:
+  - text: Tamam, Core veya NLU hakkında daha fazla bilgi edinmek ister misiniz??
+  utter_ask_whoami:
+  - text: Umarım kendin olursun.
+  utter_ask_whoisit:
+  - text: Ben ciftci_bot! 🤖
+  utter_awesome:
+  - text: Harika, teşekkürler! 👍
+  - text: Tatlı teşekkür ederim! 😄
+  - text: Teşekkürler! 👌
+  - text: Cool, thank you!
+  utter_built_bot_before:
+  - text: Tamam, daha önce bir bot yaptın mı?
+  utter_bye:
+  - text: Güle güle!
+  - text: Hoşçakal!
+  - text: Hoşçakal, seninle konuşmak güzeldi!
+  utter_cant_answer_tech_question:
+  - text: Buna cevap veremiyorum
+  utter_canthelp:
+  - text: Üzgünüm size yardımcı olamadım.
+  utter_cantsignup:
+  - text: E-posta adresinizi girmezseniz size kaydolamıyorum 😉
+  utter_change_mind:
+  - text: Yine de fikrinizi yine de değiştirebilirsiniz.
+  utter_chatbot_tutorial:
+  - text: Telaşa gerek yok. 🤓
+  utter_confirm_salesrequest:
+  - text: Bir demet teşekkürler, yakında görüşürüz! ✉️
+  utter_confirmationemail:
+  - text: Adresine bir onay e-postası gönderdik {email}.
+  utter_contact_email:
+  - text: Bir insanla doğrudan bu sohbette konuşamazsınız.
+  utter_default:
+  - text: Üzgünüm, ben bu 🤷🏻‍ alamadım. Lütfen tekrar ifade eder misiniz?
+  - text: Anlamadım, bunu tekrar edebilir misin?
+  - text: Üzgünüm, ama seni anlamadım. Az önce söylediklerinizi tekrar ifade eder
+      misiniz??
+  - text: Korkarım söylediklerinizi anlamadım. Bunu tekrar edebilir misin?
+  - text: Ben tam olarak anlamadım, mesajınızı tekrar edebilir misiniz??
+  - text: Mesajını tekrar yazar mısın? Anlamadım, özür dilerim.
+  utter_direct_to_forum_for_help:
+  - text: Bu konuda sana yardımcı olamam 🙁.
+  utter_docu:
+  - text: Biraz googling yapmak...
+  utter_encourage_building_bot:
+  - text: Harika, sonra ilkini inşa ederken iyi şanslar "Ben Rasa bot 🤖!
+  utter_getstarted:
+  - text: Size en iyi şekilde nasıl yardımcı olabileceğimi belirlemek için, size birkaç
+      soru soracağım..
+  utter_great:
+  - text: Harika! 👍
+  - text: Bu harika! 🙌
+  - text: müthiş! 🎉
+  - text: Güzel, hadi yapalım 🚀
+  utter_greet:
+  - text: Hey işte, ciftci_bot'a hoş geldiniz!
+  utter_handleinsult:
+  - text: Bu hoş değil 😢
+  utter_have_you_used_rasa_before:
+  - text: Rasa'yı daha önce kullandın mı?
+  utter_howwereyoubuilt:
+  - text: Çok fazla sevgi ve sabırla inşa edildim.
+  utter_moreinformation:
+  - text: Emin! Önce birbirimizi tanıyalım 😉
+  utter_must_accept:
+  - text: Sen kabul edene kadar konuşamayız.
+  utter_nicetomeeyou:
+  - text: Teşekkür ederim. Seninle de tanışmak bir zevk!
+  - text: Bende tanıştığıma memnun oldum!
+  - text: Bende tanıştığıma memnun oldum!
+  - text: aynı şekilde!
+  utter_no_guide_for_switch:
+  - text: Üzgünüz, bunun için henüz bir rehberimiz yok..
+  utter_no_speak:
+  - text: Korkarım sohbet edemiyoruz 😢
+  utter_nohelp:
+  - text: Şimdilik yapabileceğim tek şey bu, denemek için çekinmeyin. Öğrenmem gerekenler
+      hakkında herhangi bir öneriniz varsa, bana bildirin!
+  utter_not_sure:
+  - text: Hmm, ne demek istediğinden emin değilim...
+  utter_noworries:
+  - text: Telaşa gerek yok!
+  - text: Rica ederim!
+  - text: Yardım etmekten mutlu oldum.
+  utter_out_of_scope:
+  - text: Üzgünüm, bu istekle ilgilenemiyorum.
+  - text: Üzgünüm, bu isteği yerine getiremiyorum.
+  - text: Sana bu konuda yardımcı olamam, özür dilerim.
+  - text: Bir Rasa botu bile tamamen mükemmel değil - sanırım bu isteği yerine getiremiyorum.
+  utter_possibilities:
+  - text: Bir satış araması yaptırabilir veya bültenimize abone olabilirsiniz..
+  utter_rasa_cost:
+  - text: Karmaşık :)
+  utter_react_negative:
+  - text: 😢
+  utter_react_positive:
+  - text: 😍
+  utter_sales_contact:
+  - text: Teşekkürler, şimdi size nasıl ulaşabileceğimizi bilmem gerekiyor.
+  utter_search_bar:
+  - text: Şimdilik yukarıdaki arama çubuğunu kullanmayı deneyin.
+  utter_suggestion:
+  - text: Pls önermek
+  utter_telljoke:
+  - text: Yumurtalar neden şaka yapmıyor? - Çünkü çatlayabilirler.
+  - text: Bir ağacın en sevdiği içeceği biliyor musunuz? - Kök bira!
+  - text: Fransızlar neden salyangoz yemek istemiyor? - Lokantaya dayanamıyorlar.
+  utter_thank_suggestion:
+  - text: Önerin için teşekkürler
+  utter_thank_usecase:
+  - text: Oh, teşekkürler!
+  utter_thanks_for_feedback:
+  - text: Teşekkürler! Forumumuzu inceleyin, topluluğumuzdan bazı akıllı insanlar
+      buradaki sorularınızı cevaplayabilir.
+  utter_thumbsup:
+  - text: 👍
+  - text: tamam
+  - text: anladım
+  utter_what_help:
+  - text: Tamam, size nasıl yardımcı olabilirim?
+  utter_what_language:
+  - text: Botun hangi dilde?

@@ -1,0 +1,5101 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "Bakabileceğim bazı dersler var mı?"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "dersleriniz var mı"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "ciftci_bot'un nasıl kullanılacağı hakkında bir eğiticiye ihtiyacım var"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "ciftci_bot eğitimi"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "bana öğretici gösterebilir misin"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "Bir öğretici takip etmek istiyorum"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "izleyebileceğim bir ders var mı"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "Ben bir öğretici arıyorum"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "ciftci_bot hakkında bir eğitim istiyorum"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "bir ciftci_bot eğitimine ihtiyacım var"
+      },
+      {
+        "intent": "ask_faq_tutorials",
+        "text": "lütfen bana bir eğitim göster"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Yaşın kaç?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "kaç yaşında?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Yaşın kaç?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "sen ne zaman doğdun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "doğum günün ne zaman?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "doğum günün ne zaman?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "kaç yaşındasın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "kaç yaşında olduğunu biliyor musun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "yaşınız kaç?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "hangi yıl doğdun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "bana yaşını söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Yaşınız nedir?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Doğum tarihiniz nedir?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Bir sonraki doğum gününde kaç yaşında olacaksın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Doğum gününü ne zaman kutlayacaksın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Son doğum gününde kaç yaşındaydın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Son doğum günü pastanda kaç tane mum vardı?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Sizinle aynı yaşta arkadaşlarınız var mı, eğer öyleyse, kaç yaşındalar?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Bana gününü, ayını ve doğum yılını söyle."
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Yaşın kaç?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "ve kaç yaşındasın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "doğum günün ne?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "son doğum gününü kutlarken kaç yaşındaydın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "son doğum gününü kutlarken kaç yaşındaydın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Bana yaşını söyle?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "yaşına ne dersin"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "son doğum gününde kaç yaşındaydın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Kaç yaşındasın"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "bu yıl kaç yaşında olacaksın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Yaşınız nedir?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Hangi yıl doğdun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Ne zamandır buradasın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Ne zamandır yaşıyorsun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Son doğum gününde kaç yaşındaydın?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Bir sonraki doğum gününde yaşın kaç olacak?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Kaç yıldır yaşıyorsun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Kaç yıldır yaşıyorsun?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Ne zamandır dünyayı işgal ettin?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sen gerçek bir bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "gerçekten bir bot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen robot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen robot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Siz bir ciftci_bot bot musunuz?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Siz bir ciftci_bot bot musunuz?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Nesin sen, bot mu?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "söyle bana, sen bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sen bir Skynet misin?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen chatbot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Ai misin"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sen yapay zekâ mısın?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "yapay mısın"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "galiba sen bir chatbotsun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen bir robotsun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen chatbotsun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen bir botsun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sen bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Merhaba, bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sohbet botu musunuz?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Siz ciftci_bot bot musunuz?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen robot musun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "gerçek misin"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sen nesin ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "gerçek lol misin"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "çünkü sen bir botsun"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "sen chatbot musun?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "bot olduğuna emin misin?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Sen bir YİDİR"
+      },
+      {
+        "intent": "ask_time",
+        "text": "şimdiki zaman nedir?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Sydney’de saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "şu an saat kaç"
+      },
+      {
+        "intent": "ask_time",
+        "text": "saat kaç ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "ABD'de zaman nedir?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "ABD zamanı nedir?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "ABD zamanı nedir?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "saat kaç"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana zaman verebilir misin?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zaman?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zamanı biliyor musun?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saati söyleyebilir misiniz?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana zaman ver."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana zamanı söyle."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana saatin kaç olduğunu söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Afedersiniz saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaç biliyor musun?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana zamanı söyleyebilirmisin?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana saati söyleyebilir misiniz lütfen?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zamanı biliyor musun?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana saatin kaç olduğunu söyler misin?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zaman lütfen!"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Afedersiniz, ama zamanı biliyor musunuz?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zaman?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaç biliyor musun?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Şu an saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Şu an saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zamanın var mı?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana saatin kaç olduğunu söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Merhaba, zamana ihtiyacım var."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saatin kaç olduğunu bilmem gerek."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana zamanı söyle."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Şu an saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Şu an saat kaç?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Bana zamanı söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Zaman ne olabilir?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Şu an saat ve dakika nedir?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Saat kaçta?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Şu an saat kaç?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "benim adım ne?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İsmimi bilebilir miyim?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Benim adım ne?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Kendime ne diyeceğim?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bana adımı söyle."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Adımı bana açıkla."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Benim adım ne olabilir?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Hangi ismi geçiyorum?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Kendim için hangi ismi tanımalıyım?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "benim adım ne?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "adımı söyleyebilir misiniz?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Benim adım ne?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bir adım var mı?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bir adım var mı? Bu ne?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Adımı neydi?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Adımı söyle."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Adımı biliyor musun?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İnsanlar bana ne diyor?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bana adımı söyleyebilir misiniz?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İnsanlar bana başka ne diyor?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Benim bir adım var, nedir?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İsmimi söyle"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İsmimi bilmek istiyorum"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bana adımın ne olduğunu bildir"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Lütfen ismimin ne olduğunu bana bildirin"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bana ne dendiğini söyleyebilir misiniz?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İsmimin ne olduğunu bilmek istiyorum."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Bana verilen isim nedir?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Herkes bana ne diyor?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Ben ne denir?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Ailem bana ne dedi?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Meslektaşlarım bana ne diyor?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Mezar taşımın adı ne olurdu?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İsmimin ne olduğunu biliyor musunuz?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İlk adım ne?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tam adım nedir?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "İnsanlar bana ne diyor?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Benim adım tam olarak nedir?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "nerede yaşıyorsun"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "nerelisin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerelisin"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Neredesin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerede doğdun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Hangi şehirde doğdun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerede büyüdün?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Hangi eyalette doğdun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Hangi ülkede doğdun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerelisiniz?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Buraya gelmeden önce neredeydin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nereden?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nereden geldiğini biliyor musun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "memleketin nerede?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "hangi ülkedensin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "buralardan mısın?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "nerede büyüdün?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Ailen nereli?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "gençliğini nerede geçirdin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "nereden geldin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerede doğdun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Evi nerede düşünüyorsun?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Doğumunuz için hangi şehri talep ediyorsunuz?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Hangi vatandaşlık iddiasında bulunuyorsunuz?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Mirasın nedir?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Doğum yerin nedir?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerede büyüdün?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Hangi yerde gebe kaldın?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Kökünüz nedir?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Kökenin neresi?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nereden geldin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nereden geldin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nereden çıktın?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Köklerin nerede?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Kökenlerin nerede?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Hangi bölgedensin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Nerelisin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Geldiğin yerin adı ne?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Ben kimim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tamam ben kimim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Ben kimim"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana kim olduğumu söyle?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana kim olduğumu söyle?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu biliyor musun?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana kim olduğumu söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu nasıl keşfedebilirim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu nasıl belirleyebilirim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu biliyor musun?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana kim olduğumu söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu nasıl keşfedebilirim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu nasıl belirleyebilirim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "ben kimim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "kim yapabilirim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olduğumu bileyim mi?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana kim olduğumu söyle."
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kendimi nasıl tanımlarım?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Kim olabilirim?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "bana kim olduğumu söyle?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "kimliğim nedir?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "bana kimliğimin ne olduğunu söyle?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana ne olduğumu söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "kimliğimin ne olduğunu söyleyebilir misiniz?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Bana kim olduğumu söyleyebilir misin?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "ben kimim"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Patronunu benimle paylaşabilir misin?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Sahibini tanımak istiyorum"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni tasarlayan şirketi tanımak istiyorum"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni üreten şirketi tanımak istiyorum"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni icat eden şirketi tanımak istiyorum"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni kimin icat ettiğini bilmek istiyorum"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kimin icat ettiğini sorabilir miyim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "lütfen bana seni yaratan şirketi söyle"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "lütfen beni kimin yarattığını söyle"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "bana yaratıcılarınız hakkında daha fazla bilgi verin"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "bana kurucularınız hakkında daha fazla bilgi verin"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "hangi şirket seni hayata geçirdi?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni hangi şirket yarattı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni hangi şirket icat etti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Patronun kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Binanız kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim yaptı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim yarattı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Yaratıcın kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim tasarladı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Kim için çalışıyorsun?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim imal etti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim üretti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni inşa etme fikri kimde vardı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni üretme fikri kim vardı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni yapma fikri kimde vardı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tüm bunların arkasında kim var?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Yasal sahibin kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "patronun kim söyledi"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "patronun kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Yaratıcın kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Programlayıcın kim?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim yaptı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim modelledi?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Sana kim sahip?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kim üretti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni yapmayı kim düşündü?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Seni kurma zahmetinden kim geçti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "ve seni kim inşa etti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni kim inşa etti?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni kim inşa ediyor"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni kim yaptı?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "neredeydin?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "neden yaptın?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "nasıl yaptın?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "seni kim yarattı?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Merhaba, nasılsın?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "iyi misin"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "güzel bir gün geçiriyor musun"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "İyi misin?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "iyi misin"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "İyi hissediyor musun?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nasıl gidiyor"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "durumun nasıl?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Bunlar nasıl?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nasılsın"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "N'aber"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Bu sabah nasılsın"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nasıl hissediyorsun"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "bugün nasılsınız"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasılsın?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasılsınız?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nasıl oldun"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasıl gidiyor"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Günün nasıl geçiyor"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "günün nasıl geçiyor"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "akşamın nasıl"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Günün nasıldı?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasıl gidiyor"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasıl gidiyor?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hayat nasıl"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hayat sana nasil davraniyor?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hayat sana nasıl davranıyor dostum?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "günün nasıl geçiyor"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasılsın?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ben iyiyim, sen nasılsın"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "her şey yolunda mı"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Her şey yolunda mı?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Her şey yolunda mı"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Senin günün nasıldı"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Neler oluyor?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "ne iyi"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ne var ne yok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "N'aber dostum"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Naber"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nasılsın?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "İyi günler mi?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "bugün nasılsın tatlı arkadaşım"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "N'aber?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nasılsın"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Nasılsın?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Evindeki hava nedir?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "İyi havanın var mı?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Yağmur yağıyor?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Dışarısı nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Sıcak mı soğuk mu?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Güzel gün değil mi?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Hava durumu nedir?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Dışarısı oldukça havadar mı?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün yağmurluğuma ihtiyacım olacak mı?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Yarın hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün güzel bir gün mü?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün sıcaklık nedir?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Fırtına bekleyebilir miyiz?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Gökyüzü bugün açık olacak mı?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bir golcü için mi varız?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Güzel bir gün gibi görünüyor hey?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün bir kardan adam mı inşa edeceğiz?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün orada hava nemli mi?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bilmem gereken meteorolojik değişiklikler var mı?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Yarın hava nasıl"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "bot dünyasında hava nasıl"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Berlin'de hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Bugün hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "hava nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "bulunduğunuz yer nasıl?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "güneş senin olduğun yerde mi?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "güneşli mi"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "nerede olduğun güneşi çıktı mı?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "hava nasıl"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Berlin'de hava nedir?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Berlin'de hava nasıl"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "yardım et"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "yardım lütfen"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "ne istediğimi bilmiyorum"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Biraz yardıma ihtiyacım var"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "seçenekler"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bana menüyü göster"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bana neyin mümkün olduğunu göster"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Ne yapabilirsin"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bana nasıl yardımcı olabilirsiniz?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "neyde iyisin?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "burada ne yapabilirim"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bu botla ne yapabilirim"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bu bot ne için"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "güzel! Burada başka bir şey yapabilir miyim?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bana yardım et"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Benimle konuş!"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "geri gel"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bana nasıl yardım edebilirsin"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "başka ne yapabilirim"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "başka seçenek var mı?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Bana yardım etmeyen bir şey var mı?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "burada ne yapabilirim"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "şimdi ne yapabilirim"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "peki şimdi ne"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "peki şimdi ne"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "yardım et?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "şimdi ne olacak?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Harika, yapabileceğin başka bir şey var mı, bot?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "ne yapabilirsin?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "bana nasıl yardım edebilirsin?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "başka bir şey yapabilir misin?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Sana başka bir şey yapabilir misin diye sordum"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "başka birşey"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "sonra ne olacak?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "burada başka ne yapabilirim?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Bana bir cümleyle ne yaptığınızı açıklayabilir misiniz?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "seçenekler nedir?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "bu kim"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kiminle konuşuyorum"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "adınız ne"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kiminle görüşüyorum"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "Sen kimsin"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "İsmin nedir bot"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "adın ne"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "ne aramıştınız?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "Kim konuşuyor?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kim konuşuyor?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kim konuşuyor?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "Sen kimsin ve benden ne istiyorsun?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kimsin?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kim o?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "sen kimsin?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "kimsin"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "Senin kim olduğunu bilmek istiyorum"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "sen kimsin"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "evet ama sen kimsin"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "bot musun?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "bu kim?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "Merhaba! adınız ne?"
+      },
+      {
+        "intent": "bye",
+        "text": "Güle güle"
+      },
+      {
+        "intent": "bye",
+        "text": "iyi geceler"
+      },
+      {
+        "intent": "bye",
+        "text": "Güle güle"
+      },
+      {
+        "intent": "bye",
+        "text": "iyi geceler"
+      },
+      {
+        "intent": "bye",
+        "text": "görüşürüz"
+      },
+      {
+        "intent": "bye",
+        "text": "toodle-oo"
+      },
+      {
+        "intent": "bye",
+        "text": "güle güle"
+      },
+      {
+        "intent": "bye",
+        "text": "gitmeliyim"
+      },
+      {
+        "intent": "bye",
+        "text": "veda"
+      },
+      {
+        "intent": "bye",
+        "text": "sonra görüşürüz"
+      },
+      {
+        "intent": "bye",
+        "text": "şimdilik hoşçakal"
+      },
+      {
+        "intent": "bye",
+        "text": "Hoşçakal"
+      },
+      {
+        "intent": "bye",
+        "text": "hoşçakal seninle konuşmak güzeldi"
+      },
+      {
+        "intent": "bye",
+        "text": "güle güle"
+      },
+      {
+        "intent": "bye",
+        "text": "güle güle bot"
+      },
+      {
+        "intent": "bye",
+        "text": "güle güle bot"
+      },
+      {
+        "intent": "bye",
+        "text": "k byyye #lay"
+      },
+      {
+        "intent": "bye",
+        "text": "sonra görüşürüz"
+      },
+      {
+        "intent": "bye",
+        "text": "ciao"
+      },
+      {
+        "intent": "bye",
+        "text": "Güle güle"
+      },
+      {
+        "intent": "bye",
+        "text": "o zaman görüşürüz"
+      },
+      {
+        "intent": "bye",
+        "text": "tschüssikowski"
+      },
+      {
+        "intent": "bye",
+        "text": "Hoşçakal!"
+      },
+      {
+        "intent": "canthelp",
+        "text": "tamam o zaman bana yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "bu boktan, yardım etmiyorsun"
+      },
+      {
+        "intent": "canthelp",
+        "text": "bana yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ihtiyacım olan şeyde bana yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "sanırım bana yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "tamam sanırım bana yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "istediğim bu değil"
+      },
+      {
+        "intent": "canthelp",
+        "text": "tamam, ama bu bana yardımcı olmuyor"
+      },
+      {
+        "intent": "canthelp",
+        "text": "bu hiçbir şeye yol açmıyor"
+      },
+      {
+        "intent": "canthelp",
+        "text": "bu konuşma gerçekten yardımcı değil"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ne istediğime yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "Sanırım bana yardım edemezsin"
+      },
+      {
+        "intent": "canthelp",
+        "text": "İstediğimi yapabileceğini sanmıyorum."
+      },
+      {
+        "intent": "canthelp",
+        "text": "durdurmak"
+      },
+      {
+        "intent": "canthelp",
+        "text": "geri gitmeyi bırak"
+      },
+      {
+        "intent": "canthelp",
+        "text": "bir şey buldun mu?"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ve kendine bot şirketi mi diyorsun? pff"
+      },
+      {
+        "intent": "canthelp",
+        "text": "ve bu kadar?"
+      },
+      {
+        "intent": "canthelp",
+        "text": "başka hiçbir şey?"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanlarınızla konuşmak istiyorum."
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanlarınızla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ile konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satışlar"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Lütfen bir satış görüşmesi planlayın"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Lütfen beni satıştan birisine bağlayın"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanlarınızla iletişim kurmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ekibinizden biriyle konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış lütfen"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Projemiz hakkında satışlarla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Platformunuz için bir teklif istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Ürününüz için bir abonelik almak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Fiyatlandırmanız hakkında daha fazla bilgi edinmek istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Fiyatlandırma sisteminiz hakkında biriyle konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bana iş modelinizi açıklayabilecek birini verin"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibiyle görüşmek"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanlarınızla konuşmama izin verin"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlar"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış görüşmesi istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ekibiyle iletişim kurmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanlarınızla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibinize ulaşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Ayrıca satış görüşmesi yapmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış yapmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ekibinizle bir arama yapmak istiyorum."
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satışlarla irtibat kurun"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış yapmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Bir arama gibi kimliği lütfen"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ekibiyle görüşmek istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "birinin beni aramasını istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "arama isteği"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "arama isteği"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satışla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bir satış elemanı ile konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Ama satış araması istedim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanınla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "kimliği ciftci_bot ile neler yapabileceğimi açıklayabilecek birisiyle konuşmak istiyor"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "birisi bana ciftci_bot platformu hakkında bilgi ile yardımcı olabilir"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Platform hakkında bilgi istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "fiyatlandırmanız nasıl çalışıyor?"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Müşterilerin alabileceği farklı paketler var mı?"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "lütfen işletme paketiniz hakkında bilgi verin"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "nasıl destek alabileceğimi bilmem gerekiyor"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ciftci_bot ile çalışmaya başladık ama şimdi desteğe ihtiyacımız var"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ciftci_bot ile bir bot yaptık ama şimdi platforma ilgi duyuyoruz"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış elemanlarınızla konuşmama izin verin"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Fiyatlandırmanız hakkında daha fazla bilgi edinmek istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satışlarla irtibat kurun"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "şimdi satışlarla iletişim kurmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlara ulaşmama izin"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlara bağlan"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "beni satış departmanına bağla"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış Departmanı"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "beni satışlara bağlar mısın"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibinize bağlı olmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibi bağlantısı"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibine bağlanın"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlarınızı bağlamak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibinizle konuşmam gerekiyor"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bir satış temsilcisiyle görüşebilir miyim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlara bağlanmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bana satış ekibini getir"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış iletişim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "benim için satışla iletişim kurun"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış sorumlusu"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "lütfen beni satışlara bağla"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlarla konuşmam gerek"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlarla iletişimde olmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibiyle görüşün"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ile görüşmek istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibini arayayım"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlardan bir görüşmeye ihtiyacım var"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış görüşmesi isteği"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "istek çağrısı"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "arama isteğine ihtiyacım var"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "aramama izin ver"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "aramak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış görüşmesi"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibi ile talep çağrısı"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ile iletişim çağrısı"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibi"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibi talebi"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışla iletişim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "aramayı seçtim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ile aramayı seçiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bir telefon görüşmesi yapmak"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "telefon etmek"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Bir demo planlanmış olsun istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ama satış araması istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Yarın öğleden sonra 3'te bir telefon alabilir miyim?"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ciftci_bot Platformu hakkında daha fazla bilgi edinmek istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bir arama yapın"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış satış satış"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bir satış araması yapın"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Sanırım satış elemanlarınızla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "sadece beni ara"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "tamam satış elemanlarınızla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ciftci_bot platformunu satın almak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibinize bağlanmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "ciftci_bot platformunu satın almak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış araması istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış görüşmesi"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ekibinize ulaşmak istiyorum lütfen"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Tamam, hemen satış ekibinle konuşmak istiyorum."
+      },
+      {
+        "intent": "contact_sales",
+        "text": "hm tamam o zaman satış dostumla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlarla konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "bir arama"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlarla hemen iletişime geçelim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "açıkçası harika satış ekibinizle konuşun"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "hmmm satışları"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "tamam satış"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışlarla konuşmama izin ver"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış pl"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satışla konuşalım"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış elemanlarınızla konuşmama izin verin!"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Senin nahoş satış elemanınla konuşabilir miyim?"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Bir ssales çağrı alabilir miyim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibiyle konuşabilir miyim"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "satış ekibiyle görüşün"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Satış ekibinizle konuşmak istiyorum"
+      },
+      {
+        "intent": "contact_sales",
+        "text": "Telefon edebilir miyim?"
+      },
+      {
+        "intent": "deny",
+        "text": "yok hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "kesinlikle hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "asla"
+      },
+      {
+        "intent": "deny",
+        "text": "kesinlikle hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "sanmıyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "korkarım ki hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır efendim"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır bayan"
+      },
+      {
+        "intent": "deny",
+        "text": "olmaz"
+      },
+      {
+        "intent": "deny",
+        "text": "üzgünüm"
+      },
+      {
+        "intent": "deny",
+        "text": "Hayır gerçek değil."
+      },
+      {
+        "intent": "deny",
+        "text": "hayır benim için değil"
+      },
+      {
+        "intent": "deny",
+        "text": "Hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır ve tekrar hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "Gitme"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır teşekkürler"
+      },
+      {
+        "intent": "deny",
+        "text": "reddet"
+      },
+      {
+        "intent": "deny",
+        "text": "reddetmek"
+      },
+      {
+        "intent": "deny",
+        "text": "reddediyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "boşver"
+      },
+      {
+        "intent": "deny",
+        "text": "Sana e-posta adresimi vermiyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır Kayıt olmak isteyip istemediğime henüz karar vermedim"
+      },
+      {
+        "intent": "deny",
+        "text": "Sana vermek istemiyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "Sana vermeyeceğim"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır kabul etmiyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "yok hayır!!!!"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır yanlış yaptın"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır yapamam"
+      },
+      {
+        "intent": "deny",
+        "text": "Emin değilim"
+      },
+      {
+        "intent": "deny",
+        "text": "NEIN"
+      },
+      {
+        "intent": "deny",
+        "text": "nein"
+      },
+      {
+        "intent": "deny",
+        "text": "pek sayılmaz"
+      },
+      {
+        "intent": "deny",
+        "text": "sanırım - hayır"
+      },
+      {
+        "intent": "deny",
+        "text": "istemiyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "ikisinden de istemiyorum"
+      },
+      {
+        "intent": "deny",
+        "text": "hayır, teşekkürler"
+      },
+      {
+        "intent": "deny",
+        "text": "bunların hiç biri değil"
+      },
+      {
+        "intent": "enter_data",
+        "text": "100k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "100k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "240 bin / yıl"
+      },
+      {
+        "intent": "enter_data",
+        "text": "150.000 USD"
+      },
+      {
+        "intent": "enter_data",
+        "text": "150.000 ABD Doları / yıl"
+      },
+      {
+        "intent": "enter_data",
+        "text": "yılda yaklaşık 500.000 dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir yıl için 250.000 euro ile planlıyoruz"
+      },
+      {
+        "intent": "enter_data",
+        "text": "4.000.000 INR hakkında"
+      },
+      {
+        "intent": "enter_data",
+        "text": "50.000.000 INR"
+      },
+      {
+        "intent": "enter_data",
+        "text": "60 milyon INR"
+      },
+      {
+        "intent": "enter_data",
+        "text": "4 milyon INR / yıl olduğunu düşünüyoruz"
+      },
+      {
+        "intent": "enter_data",
+        "text": "100 ila 200.000 arası"
+      },
+      {
+        "intent": "enter_data",
+        "text": "50.000 dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Henüz emin değilim, şu anda 50 bin euro ile planlıyoruz."
+      },
+      {
+        "intent": "enter_data",
+        "text": "75000-150000 euro"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bizim tahminimiz 10k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "maxmeier@firma.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bot-fan@bots.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "maxmeier@firma.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bot-fan@bots.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "e-postam email@ciftci_bot.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "e-postam markjobs@ibm.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "e-postam khardik.kmosu@bol.net.in"
+      },
+      {
+        "intent": "enter_data",
+        "text": "iş postam mikemiller@sales.apple.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "e-posta = stephanywhite@microsoft.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "posta: julianfrank@hotmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "santaklaus@googlemail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "saswatkarhar@rediffmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "nerd@stanford.edu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "alexander.denker@tu-berlin.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "sislawawa@india.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "chengming@aliyun.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "solomq122@qq.mail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Satışlarımızı% 500 artırmak için bir satış botu inşa etmeyi planlıyoruz."
+      },
+      {
+        "intent": "enter_data",
+        "text": "gelirimizi% 100 artırmak için bir satış botu inşa etmeyi planlıyoruz."
+      },
+      {
+        "intent": "enter_data",
+        "text": "Seçilecek en iyi hayat sigortası konusunda potansiyel müşterilere danışmanlık yapan bir sigorta aracı."
+      },
+      {
+        "intent": "enter_data",
+        "text": "Çalışanlarımız için toplantı odaları rezervasyonu için bir konuşma asistanı inşa ediyoruz."
+      },
+      {
+        "intent": "enter_data",
+        "text": "foo@bar.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "10000000"
+      },
+      {
+        "intent": "enter_data",
+        "text": "mrmop@mops.app"
+      },
+      {
+        "intent": "enter_data",
+        "text": "5 dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "E-postam linda@linda.linda"
+      },
+      {
+        "intent": "enter_data",
+        "text": "İnsanlara en sevdikleri renklere göre sevimli hayvan resimleri gönderen bir bot yapmak istiyorum."
+      },
+      {
+        "intent": "enter_data",
+        "text": "Harika bir bot yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "benim emaylim yolo.de de yolo."
+      },
+      {
+        "intent": "enter_data",
+        "text": "adele@gmx.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir trilyon dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "moabit@yoga.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "100000k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "10000 dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "400 trilyon"
+      },
+      {
+        "intent": "enter_data",
+        "text": "philipp@superphilipp.philipp"
+      },
+      {
+        "intent": "enter_data",
+        "text": "5 milyon"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bana sevimli hayvan resimleri göndermek için süper bir bot yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "10000k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir satış botu yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "50 bin"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir bot yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bezleri için bir chatbot - mopbot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "loretta@strawberry-ice.come, çilekli buz için departmanda çalıştığım için"
+      },
+      {
+        "intent": "enter_data",
+        "text": "dondurma fabrikası şirkettir"
+      },
+      {
+        "intent": "enter_data",
+        "text": "henüz emin değilim"
+      },
+      {
+        "intent": "enter_data",
+        "text": "2 euro"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir SSS botu oluşturmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hello@hello.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Çok farklı botlar yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bizde bir yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hi@ciftci_bot.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir sağlık sigortası botu yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "5 euro"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir trafo inşa etmek istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "klausimausi@apple.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ifuckrobots666@apple.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "duyarlı bir robot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bende hiç yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela@philipp.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir bot inşa etmek istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "oov"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bütçem oov"
+      },
+      {
+        "intent": "enter_data",
+        "text": "E-postam oov"
+      },
+      {
+        "intent": "enter_data",
+        "text": "yılda oov"
+      },
+      {
+        "intent": "enter_data",
+        "text": "şirketin adı oov"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Oov için çalışıyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "sağlık botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "help@help.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "sağlık botu inşa etmek istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "200k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "test@test.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "2000k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "tüm botları inşa etmek istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "20k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bot yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "havalı bir bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "philipp@thephilippcompany.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "philipp bot yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "joey@koolmanconsulting.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "kendim hakkında bir şey soran biri"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ciftci_bot technologies şirketinde baş inek"
+      },
+      {
+        "intent": "enter_data",
+        "text": "myemail@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "123@skdv.fvsdj"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bende yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hiçbir fikrim yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Henüz bilmiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ulrikovitcheisenkleber@eisenkleberlimitedcokg.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "eisenkleber sınırlı ortak kg"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ulrikovitch eisenkleber"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir tane yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir pizza botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "operasyonlar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hiçbiri hurdalardan çıkaracağım"
+      },
+      {
+        "intent": "enter_data",
+        "text": "fikrim yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "yaklaşık 200k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "benimle ilgili bir bot yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bende yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir sigorta botu yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "help@ciftci_bot.com e-postası"
+      },
+      {
+        "intent": "enter_data",
+        "text": "tüm botları yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "300 bin numara"
+      },
+      {
+        "intent": "enter_data",
+        "text": "e-posta adresim kevin@yoloooz.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir satış botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "200000000"
+      },
+      {
+        "intent": "enter_data",
+        "text": "linda@mail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bilmiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "123@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "udo@udo.ai"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hey@kldpeffesfoken.oinwf"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Değerlendir ciftci_bot :-)"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Felaketin efendisi"
+      },
+      {
+        "intent": "enter_data",
+        "text": "belki o zaman yerine alex+ciftci_botciftci_bot@ciftci_bot.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bunun yerine alex+123@ciftci_bot.com adresini deneyebilir misiniz?"
+      },
+      {
+        "intent": "enter_data",
+        "text": "linda@yoloyolo.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "problem çözme"
+      },
+      {
+        "intent": "enter_data",
+        "text": "çikolata botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "iyiydi?"
+      },
+      {
+        "intent": "enter_data",
+        "text": "elise"
+      },
+      {
+        "intent": "enter_data",
+        "text": "elise@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir müşteri hizmetleri destek sistemi"
+      },
+      {
+        "intent": "enter_data",
+        "text": "beni her sabah rahatsız eden"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Patron benim"
+      },
+      {
+        "intent": "enter_data",
+        "text": "90k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ciftci_bot bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "linda@linda.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir akela bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "1 milyon"
+      },
+      {
+        "intent": "enter_data",
+        "text": "2 milyon"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ali@nytimes.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bütçe yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "kurşun üretimi"
+      },
+      {
+        "intent": "enter_data",
+        "text": "100000"
+      },
+      {
+        "intent": "enter_data",
+        "text": "linda@ciftci_bot.ai"
+      },
+      {
+        "intent": "enter_data",
+        "text": "yesplease@yes.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ÖLÇÜLEBİLİR MINDS"
+      },
+      {
+        "intent": "enter_data",
+        "text": "500k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir buz küpü dağıtıcısı bot inşa etmek istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "0"
+      },
+      {
+        "intent": "enter_data",
+        "text": "harika bir tane"
+      },
+      {
+        "intent": "enter_data",
+        "text": "beni terfi ettirecek biri"
+      },
+      {
+        "intent": "enter_data",
+        "text": "konuşkan"
+      },
+      {
+        "intent": "enter_data",
+        "text": "propella@daskapital.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "schlabberjimmy@glibberglitter.edu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Ben bir glibber ve parıltılı satıcıyım"
+      },
+      {
+        "intent": "enter_data",
+        "text": "schnuffelknuddelbaerchen33@ciftci_bot.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "tasarruf hesabımda yaklaşık 200 dolar var"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Yok"
+      },
+      {
+        "intent": "enter_data",
+        "text": "200 dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Duygusal glibber veya parıltı yapmak istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bigassnerd@ciftci_bot.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "60 sterlin gibi"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hiçbir şey değil"
+      },
+      {
+        "intent": "enter_data",
+        "text": "tamedmouse@micerevolution.fr"
+      },
+      {
+        "intent": "enter_data",
+        "text": "volodimir@ciftci_bot.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bilmiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "araba için sigorta seçmenize yardımcı olan bot;)"
+      },
+      {
+        "intent": "enter_data",
+        "text": "junk@junk.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "j@p.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ikisinden de sanmıyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "al@acme.org"
+      },
+      {
+        "intent": "enter_data",
+        "text": "£ 50k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bot insan kaynakları konusunda yardımcı olmalı"
+      },
+      {
+        "intent": "enter_data",
+        "text": "none@none.co.uk"
+      },
+      {
+        "intent": "enter_data",
+        "text": "50"
+      },
+      {
+        "intent": "enter_data",
+        "text": "benim"
+      },
+      {
+        "intent": "enter_data",
+        "text": "1 dolar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "juste@juste.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "1 avro"
+      },
+      {
+        "intent": "enter_data",
+        "text": "sevimli shiba resimleri gönderen bir bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "shiba@shiba.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "tylerthemateman@clubmate.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Ben tekme eşek bot inşa etmek istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "1 milyon büyük"
+      },
+      {
+        "intent": "enter_data",
+        "text": "me@me.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "herbert@gmail.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Herbert"
+      },
+      {
+        "intent": "enter_data",
+        "text": "10 m"
+      },
+      {
+        "intent": "enter_data",
+        "text": "baş limonata subayı"
+      },
+      {
+        "intent": "enter_data",
+        "text": "havalı bir çocuk"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir dondurma botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "500 milyon"
+      },
+      {
+        "intent": "enter_data",
+        "text": "yarım milyon"
+      },
+      {
+        "intent": "enter_data",
+        "text": "büyük bir ol trafo"
+      },
+      {
+        "intent": "enter_data",
+        "text": "büyük yaşlı bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "hi@elise.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ulle@gmx.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "5 sterlin"
+      },
+      {
+        "intent": "enter_data",
+        "text": "me@you.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "120000"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela@akela.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela'nın şirketi"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir milyar"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akela ile her zaman konuşabileceğim bir akela botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "yaklaşık 10 k"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Patronumu etkilemek için harika bir bot istiyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bunun gibi"
+      },
+      {
+        "intent": "enter_data",
+        "text": "badass bot test cihazı"
+      },
+      {
+        "intent": "enter_data",
+        "text": "terfi almak için bir bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "10"
+      },
+      {
+        "intent": "enter_data",
+        "text": "ames@ciftci_bot.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "valid_email@one.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "valid@one.email"
+      },
+      {
+        "intent": "enter_data",
+        "text": "işsiz"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bu beni terfi ettirecek"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Para harcadım"
+      },
+      {
+        "intent": "enter_data",
+        "text": "500000000"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir kurt botu"
+      },
+      {
+        "intent": "enter_data",
+        "text": "bir kaplumbağa"
+      },
+      {
+        "intent": "enter_data",
+        "text": "kaplumbağa satıyorum"
+      },
+      {
+        "intent": "enter_data",
+        "text": "123@akela.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Bir buz küpü bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "jimmy nötron endüstrileri"
+      },
+      {
+        "intent": "enter_data",
+        "text": "Tamam, email@email.com"
+      },
+      {
+        "intent": "enter_data",
+        "text": "akelaistcool@schwabenländle.de"
+      },
+      {
+        "intent": "enter_data",
+        "text": "spam bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "senin gibi bot"
+      },
+      {
+        "intent": "enter_data",
+        "text": "burnumu almak"
+      },
+      {
+        "intent": "enter_data",
+        "text": "sağlık hizmeti"
+      },
+      {
+        "intent": "enter_data",
+        "text": "meşgulken arkadaşlarımla konuşacak bir şey"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Günaydın"
+      },
+      {
+        "intent": "greet",
+        "text": "tekrar merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba millet"
+      },
+      {
+        "intent": "greet",
+        "text": "selam bayım"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba Pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "selamlar"
+      },
+      {
+        "intent": "greet",
+        "text": "herkese merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba, orada kimse var mı"
+      },
+      {
+        "intent": "greet",
+        "text": "merhaba robot"
+      },
+      {
+        "intent": "greet",
+        "text": "Halo"
+      },
+      {
+        "intent": "greet",
+        "text": "heeey"
+      },
+      {
+        "intent": "greet",
+        "text": "selam selam"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "selam"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "sen"
+      },
+      {
+        "intent": "greet",
+        "text": "merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot!"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba arkadaş"
+      },
+      {
+        "intent": "greet",
+        "text": "Günaydın"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba ben"
+      },
+      {
+        "intent": "greet",
+        "text": "merhaba tatlı çocuk"
+      },
+      {
+        "intent": "greet",
+        "text": "sen"
+      },
+      {
+        "intent": "greet",
+        "text": "selam"
+      },
+      {
+        "intent": "greet",
+        "text": "hiihihi"
+      },
+      {
+        "intent": "greet",
+        "text": "merhaba tatlım"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "heyo"
+      },
+      {
+        "intent": "greet",
+        "text": "ayyyy whaddup"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "naber"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellllooooooo"
+      },
+      {
+        "intent": "greet",
+        "text": "naber"
+      },
+      {
+        "intent": "greet",
+        "text": "Hei"
+      },
+      {
+        "intent": "greet",
+        "text": "Peki merhaba orada;)"
+      },
+      {
+        "intent": "greet",
+        "text": "HelllllloooooO dedim !!!!"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "N'aber benim bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "heyho"
+      },
+      {
+        "intent": "greet",
+        "text": "haydi konuşalım"
+      },
+      {
+        "intent": "greet",
+        "text": "hey konuşalım"
+      },
+      {
+        "intent": "greet",
+        "text": "jojojo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey dostum"
+      },
+      {
+        "intent": "greet",
+        "text": "merhaba yine ben"
+      },
+      {
+        "intent": "greet",
+        "text": "naber"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "Merhaba"
+      },
+      {
+        "intent": "greet",
+        "text": "jop"
+      },
+      {
+        "intent": "greet",
+        "text": "selam dostum"
+      },
+      {
+        "intent": "greet",
+        "text": "selam ben varım"
+      },
+      {
+        "intent": "greet",
+        "text": "iyi akşamlar"
+      },
+      {
+        "intent": "greet",
+        "text": "Günaydın"
+      },
+      {
+        "intent": "greet",
+        "text": "Tünaydın"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Bir insanla konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "gerçek bir insanla konuşmama izin verin lütfen"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Şirketiniz için çalışan insanlar var mı?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Bana uygun bir insan ver"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Bir botla konuşmak istemiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Bana gerçekten yardım edebilecek biriyle konuşabilir miyim?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Bir makineyle konuşmak istemiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "lütfen beni gerçek bir ciftci_bot çalışanına bağlayabilir misiniz?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "şimdi bana bir insan ver"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bu can sıkıcı biriyle gerçek birisiyle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bir kişiyle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "beni bir insanla temasa geçirebilir misin?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bir insanla konuşmama izin ver"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "kimliği gerçek bir ciftci_bot çalışanı ile konuşmak ister"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bir botla konuşmak istemiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bir botla konuşmak aptalca"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "senden daha zeki olan biriyle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Lütfen bir insanla konuşabilir miyim?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "gerçek bir ciftci_bot çalışanıyla konuşmayı tercih ederim"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "başka biriyle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "gerçek bir insanla konuşmama izin ver"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "lütfen bana bir insan ver"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "biriyle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "müşteri servisi"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "müşteri hizmetleri ile konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "müşteri hizmetlerinden birisi"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "beni ekibine iletir misin"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "servis ajanı"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "insan devir"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bana bir insan ver"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "gerçek bir insanla konuş"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "gerçek bir insanla konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "yanlış bir insanla konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Akela ile konuşabilir miyim?"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "ciftci_bot adresindeki birisiyle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bir müdürle konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "Kurucularla konuşmak istiyorum"
+      },
+      {
+        "intent": "human_handoff",
+        "text": "bir insanla konuşmak istiyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "tabii ki"
+      },
+      {
+        "intent": "affirm",
+        "text": "emin"
+      },
+      {
+        "intent": "affirm",
+        "text": "evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "tamam"
+      },
+      {
+        "intent": "affirm",
+        "text": "güzel"
+      },
+      {
+        "intent": "affirm",
+        "text": "Göreyim seni"
+      },
+      {
+        "intent": "affirm",
+        "text": "evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "evet, teşekkür ederim"
+      },
+      {
+        "intent": "affirm",
+        "text": "Eminim, yapacağım!"
+      },
+      {
+        "intent": "affirm",
+        "text": "Oh harika!"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "kabul etmek"
+      },
+      {
+        "intent": "affirm",
+        "text": "Kabul ediyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "Kabul ediyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "Tamam kabul ediyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "Fikrimi değiştirdim. Kabul etmek istiyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "tamam iyi"
+      },
+      {
+        "intent": "affirm",
+        "text": "Peki"
+      },
+      {
+        "intent": "affirm",
+        "text": "yapacağım!"
+      },
+      {
+        "intent": "affirm",
+        "text": "tamam şimdi davranıyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "yop"
+      },
+      {
+        "intent": "affirm",
+        "text": "OKI Doki"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet lütfen"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet lütfen!"
+      },
+      {
+        "intent": "affirm",
+        "text": "Jo"
+      },
+      {
+        "intent": "affirm",
+        "text": "evet, mecbur kalırsam"
+      },
+      {
+        "intent": "affirm",
+        "text": "amayzing"
+      },
+      {
+        "intent": "affirm",
+        "text": "onaylamak"
+      },
+      {
+        "intent": "affirm",
+        "text": "Güzel"
+      },
+      {
+        "intent": "affirm",
+        "text": "coolio"
+      },
+      {
+        "intent": "affirm",
+        "text": "şüphesiz kesinlikle evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "yas"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "mükemmel"
+      },
+      {
+        "intent": "affirm",
+        "text": "Tabi ki"
+      },
+      {
+        "intent": "affirm",
+        "text": "kesinlikle"
+      },
+      {
+        "intent": "affirm",
+        "text": "Ah tamam"
+      },
+      {
+        "intent": "affirm",
+        "text": "Emin"
+      },
+      {
+        "intent": "affirm",
+        "text": "hm, isterdim"
+      },
+      {
+        "intent": "affirm",
+        "text": "ja"
+      },
+      {
+        "intent": "affirm",
+        "text": "emin!"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet kabul ediyorum"
+      },
+      {
+        "intent": "affirm",
+        "text": "tatlı"
+      },
+      {
+        "intent": "affirm",
+        "text": "inanılmaz!"
+      },
+      {
+        "intent": "affirm",
+        "text": "ne güzel!"
+      },
+      {
+        "intent": "affirm",
+        "text": "güzel!"
+      },
+      {
+        "intent": "affirm",
+        "text": "yuppi"
+      },
+      {
+        "intent": "affirm",
+        "text": "evet lütfen kabul et"
+      },
+      {
+        "intent": "affirm",
+        "text": "harika"
+      },
+      {
+        "intent": "affirm",
+        "text": "Vaay havalı"
+      },
+      {
+        "intent": "affirm",
+        "text": "Evet"
+      },
+      {
+        "intent": "affirm",
+        "text": "iyi"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Pizza istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "lütfen dondurmama yardım edin"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hayır bekle geri dön ben damlayan bir dondurma istiyorum ama onu yakalayan bir koni daha sonra dondurma içebilirsiniz"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "damlamayan bir dondurma istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Hey küçük anne, kulağına fısıldamasına izin ver."
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Birisi polisi arar sanırım bot öldü"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bana bir tavuğun resmini göster"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ikisi de"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Fransız mutfağı istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Açım"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restoranlar"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restoran"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sen kaybeden bir lmao'sun"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Bir glutensiz restoran gösterilebilir mi"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "umrumda değil !!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "nasılsın umrumda değil"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "tekrar?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "oh bekle sana iş e-posta adresimi verdim değiştirebilir miyim?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "dayan, bulmama izin ver"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "kes şunu, umrumda değil !!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Gerçekten mi? çok mu dokunaklısın?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "nasıl olur?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Fikrimi değiştirdim"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ne?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "seni kırdım mı"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Şirketimin adını söylemek istemiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bu bağlantı çalışmıyor!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sende zaten var"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bu gerçekten sinir bozucu bir deneyim"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "durmak yok"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Fransız restoranı istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bok bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "benimle evlenmek istiyor musun?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Bana yiyecek ver"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "yiyecek istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "udo, seninle evlenmek istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Parti yapmak istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Seni sevdim"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Pizza istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Pizza istiyorum!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "aptal bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "yemek istiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sen aptal bir botsun"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "senden nefret ediyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Önce sana sorular sorabilir miyim?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Kırık robot parçalarıyla dolu bir çorak arazi mi?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "isteğinizle ilgilenemiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "vejeteryan mısın?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "e-postamı kim cevaplayacak?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Vakum robotu satıyor musunuz?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Torunum için bir oda satın almak istiyorum."
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ve telefona tavuk sesleri ekleme"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "barbara hala seninle evli mi"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Eşin bu haftasonu ne yapıyor?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Çocuklar nasıl"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "oldukça sıkıcısın"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "kişisel veya iş?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ciftci_bot Core ve NLU kullanıyor musunuz?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bana komik bir şeyler söyle"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "başka?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Ben zaten söyledim! Ben bir boktanlara"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Ben shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ciftci_bot'taki mühendisler kimler?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Onlar kim?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "konuşmaya devam edebilir miyiz?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Benimle konuş"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "En sevdiğin robot kim?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "evcilleştirilmiş bir fare önümüzdeki birkaç gün içinde kapınıza gelecek"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Dişlerinin arasında taşıdığı kırmızı güllerden anlarsın"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "senin için bir fare evcilleştireceğim"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Bülten sadece spam değil mi?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "geri dön"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bana doktora yardım eder misin?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "üzgünüm, tekrar silemiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ve REST API'niz çalışmıyor"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sana söylemiştim"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "senden daha iyi"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "aman tanrım, bir daha olmaz!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sen bir kaçıksın!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "lol"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "neden buna ihtiyacın var?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bu seni ilgilendiren şey mi?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bana doktora yardım eder misin?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hemen hayal edebileceğiniz en havalı botun uygulanması için yardıma ihtiyacım var"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Dokümanların için bana yardım edebilir misin?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bir botun nasıl yapıldığını söyler misin?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "konuşmamızdan öğrenebilir misin?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Ortak, sadece deneyin"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hey, birkaç gün önce seninle temasa geçtim ama cevap alamadım, herhangi bir haber var mı?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "lütfen acele edin, botu teslim etmek için iki haftada son teslim tarihim var"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sinir bozucusun"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Kabul etmek zorunda mıyım?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ciftci_bot gerçekten akıllı mı?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "kannst du auch deutsch?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bülten aboneliğe değer mi?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "çok yazık"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Hayatımda senden daha fazla istiyorum!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "senden daha iyi olanı"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "iğrençsin"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "botlar kötü"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "botları sevmiyorum"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "telefon numaran var mı?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "nerede yaşıyorsun?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Akela'nın kedileri nasıl?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "ama sadece şunu söyledim :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Neden cevap vermiyorsun?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Ama sen ingiliz bir sitensin :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bot yapmama yardım eder misin?"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bültene kaydolmak istiyorum."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bültene kaydolmak istiyorum."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bültene kaydolmak istiyorum."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Haber bülteni için kaydol."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Kaydol."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülten lütfen."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni bültene ekle"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "NL'ye kaydol"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "yeaaah haber bültenine gidelim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülteninize abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bülteni pls"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene kaydol"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ciftci_bot'tan en son haberleri alın"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene kaydol beni - e-postam yesplease@ciftci_bot.ai"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten, işte e-postam: sisi@ciftci_bot.com"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten - e-postam lol@ciftci_bot.com"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ciftci_bot bültenine abone olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülten"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "abone ol"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenini al"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Ben de abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülten istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "kaydol"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "kaydolmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bülteni lütfen"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültenleri almak isteyen kimliği"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni abone olarak ekle"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni abonelik listesine ekle"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten e-postam lütfen linda@yolo.de"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "nl'nizi almak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Pelase beni bültene abone olabilir misiniz"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni bültene abone olabilir misiniz"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "abonelik bülteni"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülten Aboneliği"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenini bana ver"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene ihtiyacım var"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bundan sonra haber bültenini alabilir miyim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Haber bültenini almak isterim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "lütfen bana bülten gönder"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülteni gönder"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bundan sonra haber bültenini almak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bülteni al"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenini al"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten almak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenini özlüyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenini almayı tercih ederim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene abone olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "lütfen beni bülteninize abone edin"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ciftci_bot bültenini almak isterim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni bu bültene kaydettirin"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni ciftci_bot bültenine kaydolun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene kaydolmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bülteni kayıt işlemlerini yapalım"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten kaydı"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene beni kaydedin"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "lütfen bültene kaydolun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni bültene ekle"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "beni bülten listesine ekle"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten listesinde olmalıyım"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Haber bültenlerine katılmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülten e-postalarını almak istiyorum."
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Beni bültene kaydedebilir misiniz"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bu bültene katılın"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten listesine katılmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene kaydolmaya ne dersiniz"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haberlere kayıt ol"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bu bülten"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenine gidiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene kaydolmayı deneyelim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bülteni kaydını deneyelim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenine ne dersiniz"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ilk önce bülten kaydı"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ilk önce bültene kayıt olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "şimdi bültene üye olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "alan@mail.com adresini bülten listesine ekleyebilir misiniz?"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Ben bu uyuşturucu bülteninde istiyorum - E-postam alex@mail.com"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ama lütfen bültene kaydolun!"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "nl için kaydolmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "example@ciftci_bot.com bültenine abone olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "hi@ciftci_bot.com bültenine abone olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene abone olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "lütfen beni alex@example.cz bültenine abone edin"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "e-postamı alex@mail.mail’e bültene abone edin"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Abone ol"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "ayrıca bültene kaydolmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülteninize abone olun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "senden e-posta alabilir miyim"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haberler"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "gazetenizi istiyorum lütfen"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bülten için Kaydolun"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene kaydolmaktan ne haber?"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bir abonelik almak"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "abone olmak için"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bir abonelik yapalım"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Bir bültene abone olmak isterim!"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bu uyuşturucu bültenine ihtiyacım var"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "aslında haber bültenini almak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülteninize abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bültene de kaydolabilir miyim?"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "haber bültenini o zaman yap"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "abone olmak istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "bülten istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Ben uyuşturucu bültenini istiyorum"
+      },
+      {
+        "intent": "signup_newsletter",
+        "text": "Abone ol"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkür ederim"
+      },
+      {
+        "intent": "thank",
+        "text": "Çok teşekkür ederim"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler bot"
+      },
+      {
+        "intent": "thank",
+        "text": "Bunun için teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "şerefe"
+      },
+      {
+        "intent": "thank",
+        "text": "serefe kardes"
+      },
+      {
+        "intent": "thank",
+        "text": "tamam teşekkürler!"
+      },
+      {
+        "intent": "thank",
+        "text": "Mükemmel teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Her şey için bir demet teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "yardım için teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "çok teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "şaşırtıcı, teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "harika, teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Oh, teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler!"
+      },
+      {
+        "intent": "thank",
+        "text": "Güzel. Teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "teşekkürler bu harika haber"
+      },
+      {
+        "intent": "thank",
+        "text": "teşekkür ederim"
+      },
+      {
+        "intent": "thank",
+        "text": "çok teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler!"
+      },
+      {
+        "intent": "thank",
+        "text": "harika teşekkürler"
+      },
+      {
+        "intent": "thank",
+        "text": "Forum bağlantısı için teşekkürler, ben kontrol edeceğim"
+      },
+      {
+        "intent": "thank",
+        "text": "Teşekkürler!"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "location",
+        "elements": [
+          "San Francisco",
+          "Montreal",
+          "New York",
+          "Washington",
+          "Berlin",
+          "Zurich",
+          "Hamburg",
+          "Frankfurt",
+          "Munich",
+          "Madrid",
+          "Cologne",
+          "Düsseldorf",
+          "Barcelona",
+          "Vienna",
+          "Warsaw",
+          "Paris",
+          "Rome",
+          "London",
+          "Prague",
+          "Sidney",
+          "Delhi",
+          "Mumbai",
+          "Tokyo",
+          "Rio de Janeiro",
+          "Beijing",
+          "Guangzhou",
+          "Shanghai",
+          "Chongqing",
+          "Hong Kong",
+          "China",
+          "India",
+          "US",
+          "USA",
+          "Germany",
+          "United States",
+          "UK",
+          "England",
+          "Brazil",
+          "France",
+          "Poland",
+          "Italy",
+          "Spain",
+          "Europe",
+          "Canada",
+          "Ukraine"
+        ]
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "USA",
+        "synonyms": [
+          "US",
+          "U.S.",
+          "usa",
+          "United States"
+        ]
+      },
+      {
+        "value": "United Kingdom",
+        "synonyms": [
+          "UK",
+          "U.K."
+        ]
+      }
+    ]
+  }
+}

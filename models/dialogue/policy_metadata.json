@@ -1,0 +1,98 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "package_manager",
+        "feedback_value",
+        "product",
+        "name",
+        "current_api",
+        "language",
+        "nlu_part",
+        "email"
+      ]
+    },
+    "action_store_email": {
+      "slots": [
+        "email"
+      ]
+    },
+    "action_subscribe_newsletter": {
+      "slots": [
+        "subscribed"
+      ]
+    },
+    "action_store_job": {
+      "slots": [
+        "job_function"
+      ]
+    },
+    "action_store_usecase": {
+      "slots": [
+        "use_case"
+      ]
+    },
+    "action_store_budget": {
+      "slots": [
+        "budget"
+      ]
+    },
+    "action_store_name": {
+      "slots": [
+        "person_name"
+      ]
+    },
+    "action_store_company": {
+      "slots": [
+        "company_name"
+      ]
+    },
+    "action_store_sales_info": {
+      "slots": [
+        "data_stored"
+      ]
+    },
+    "action_set_onboarding": {
+      "slots": [
+        "onboarding"
+      ]
+    },
+    "action_store_entity_extractor": {
+      "slots": [
+        "entity_extractor"
+      ]
+    },
+    "action_store_bot_language": {
+      "slots": [
+        "can_use_spacy"
+      ]
+    },
+    "action_greet_user": {
+      "slots": [
+        "step",
+        "shown_privacy"
+      ]
+    },
+    "action_store_problem_description": {
+      "slots": [
+        "problem_description"
+      ]
+    }
+  },
+  "rasa_core": "0.13.0a4",
+  "python": "3.6.5",
+  "max_histories": [
+    6,
+    6,
+    null,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.AugmentedMemoizationPolicy",
+    "rasa_core.policies.two_stage_fallback.TwoStageFallbackPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190330-002331"
+}
