@@ -1,12 +1,38 @@
-# chatbot-tr
-Turkish Deep Learning based Chat bot
+## Introduction
 
-this repository is based on RASA platform. The advantage of using such chatbot platform to others is that chatbot can work offline. 
+Turkish Deep Learning based Chatbot
 
-Please install RASA platform  first : https://github.com/RasaHQ
+The chatbot is implemented on top of RASA stack. You can also run it on your on-premise system. But for now this is only experimental version and not ready for production yet.
 
 What we are doing here then? 
+For now, we are updating the NLU data in Turkish language!
 
-For now, we are updating the NLU.md data to turkish. Then we will extend the chat bot's intends and entities. 
+## Installation
 
-We will publish our trained LSTM model (look at keras policy function) as well.
+To install, please clone the repo and run:
+```console
+$ cd chatbot-tr
+$ pip install -e .
+```
+This will install the bot and all of its requirements. Note that it was written in Python 3 so might not work with PY2.
+
+
+## Train
+
+For training NLU model, please run:
+```console
+$ make train-nlu
+```
+
+For training Core model, please run:
+```console
+$ make train-core
+```
+
+## Run
+
+Before running chatbot, you shoud run duckling server:
+```console
+$ docker run -p 8000:8000 rasa/duckling
+$ make run-cmdline
+```

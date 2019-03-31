@@ -3,6 +3,10 @@
 - dersleriniz var mı
 - ciftci_bot'un nasıl kullanılacağı hakkında bir eğiticiye ihtiyacım var
 - ciftci_bot eğitimi
+- bana öğretici gösterebilir misin
+- Bir öğretici takip etmek istiyorum
+- izleyebileceğim bir ders var mı
+- Ben bir öğretici arıyorum
 - takip edebileceğim bir ders var mı
 - Ben bir eğitimci arıyorum
 - ciftci_bot hakkında bir eğitim istiyorum
@@ -11,29 +15,50 @@
 
 
 ## intent:ask_howold
+- Yaşın kaç?
+- kaç yaşında?
 - kaç yaşındasın?
 - Yaşın kaç?
 - sen ne zaman doğdun?
 - doğum günün ne zaman?
+- doğum günün ne zaman?
+- kaç yaşındasın?
 - kaç yaşında olduğunu biliyor musun?
 - yaşınız kaç?
 - hangi yıl doğdun?
 - bana yaşını söyleyebilir misin?
 - Yaşınız nedir?
 - Doğum tarihiniz nedir?
+- Bir sonraki doğum gününde kaç yaşında olacaksın?
 - Bir sonraki sene kaç yaşında olacaksın?
 - Doğum gününü ne zaman kutlayacaksın?
+- Son doğum gününde kaç yaşındaydın?
 - Son doğum günü pastanda kaç tane mum vardı?
 - Sizinle aynı yaşta arkadaşlarınız var mı, eğer öyleyse, kaç yaşındalar?
-- Bana gününü, ayını ve doğum yılını söyle.
+- Bana gününü, ayını ve doğum yılını söyle
+- Yaşın kaç?
+- ve kaç yaşındasın?
+- doğum günün ne?
 - son doğum gününü kutlarken kaç yaşındaydın?
+- son doğum gününü kutlarken kaç yaşındaydın?
+- Bana yaşını söyle?
+- yaşına ne dersin
+- son doğum gününde kaç yaşındaydın?
+- Kaç yaşındasın
+- bu yıl kaç yaşında olacaksın?
+- Yaşınız nedir?
+- Hangi yıl doğdun?
 - Bana yaşını söyle
 - Ne zamandır buradasın?
 - Ne zamandır yaşıyorsun?
+- Son doğum gününde kaç yaşındaydın?
+- Bir sonraki doğum gününde yaşın kaç olacak?
 - Kaç yıldır yaşıyorsun?
+- Ne zamandır dünyayı işgal ettin?
 
 ## intent:ask_isbot
-- bot musun?
+- Sen gerçek bir bot musun?
+- bot musun
 - Sen gerçek misin
 - gerçekten bir bot musun
 - sen robot musun
@@ -42,6 +67,7 @@
 - söyle bana, sen bot musun?
 - Sen bir Skynet misin?
 - sen chatbot musun
+- Ai misin
 - Sen yapay zekâ mısın?
 - yapay mısın
 - galiba sen bir chatbotsun
@@ -59,6 +85,15 @@
 
 
 ## intent:ask_time
+- şu an saat kaç
+- saat kaç ?
+- ABD'de zaman nedir?
+- ABD zamanı nedir?
+- ABD zamanı nedir?
+- saat kaç
+- Bana zaman verebilir misin?
+- Zaman
+- Zamanı biliyor musun
 - Şu an saat kaç?
 - Sydney’de saat kaç?
 - saat kaç 
@@ -68,7 +103,7 @@
 - Bana saatin kaç olduğunu söyleyebilir misin?
 - Afedersiniz saat kaç?
 - Saat kaç biliyor musun?
-- Bana saati söyleyebilir misiniz lütfen?
+- Bana saati söyleyebilir misiniz lütfen
 - Bana saatin kaç olduğunu söyler misin
 - Saat kaç biliyor musun?
 - Şu an saat kaç?
@@ -706,7 +741,7 @@
 - selam dostum
 - iyi akşamlar
 - Günaydın
--  iyi geceler
+- iyi geceler
 - iyi sabahlar
 - Tünaydın
 
