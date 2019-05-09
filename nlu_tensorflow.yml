@@ -13,4 +13,4 @@ pipeline:
   - number
   - amount-of-money
 - name: ner_synonyms
-language: en
+language: tr
